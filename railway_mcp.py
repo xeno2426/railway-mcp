@@ -421,4 +421,4 @@ async def railway_set_variable(params: SetVariableInput) -> str:
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8002))
     print(f"🚂 Railway MCP Server → http://0.0.0.0:{port}")
-    mcp.run(transport="streamable-http", port=port)
+    mcp.run(transport="streamable_http", port=port)
